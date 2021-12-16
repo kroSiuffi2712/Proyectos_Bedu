@@ -1,0 +1,1 @@
+(()=>{const e=[0,1,!1,2,"",3],n=e.filter((e=>!!e));console.log("\nHere is the original array: ".concat(e,"\nAnd here is the compacted array: ").concat(n,"\n"))})();

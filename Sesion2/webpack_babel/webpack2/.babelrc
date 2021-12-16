@@ -1,0 +1,30 @@
+{
+  "presets": [[
+    "@babel/preset-env",
+    {
+      "targets": {
+        "edge": "17",
+        "firefox": "60",
+        "chrome": "70",
+        "safari": "11"
+      },
+      "debug": true
+    }
+  ]]
+}
+/*{
+    "presets": [[
+      "@babel/preset-env",
+      {
+        "targets": {
+        "browsers": [
+          ">=1%",
+          "not ie 11",
+          "not op_mini all"
+        ]
+      },
+        "debug": true
+      }
+    ]]
+  }
+ */ 
